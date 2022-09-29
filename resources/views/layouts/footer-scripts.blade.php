@@ -31,3 +31,26 @@
 <!-- custom js -->
 <script src="{{URL::asset('assets/js/custom.js')}}"></script><!-- Left-menu js-->
 <script src="{{URL::asset('assets/plugins/side-menu/sidemenu.js')}}"></script>
+
+<script>
+
+
+
+function scrollDown(){
+
+   document.getElementById("chat").scrollTop = document.getElementById("chat").scrollHeight
+
+ }
+setInterval(scrollDown,10);
+
+$('#chatmodel').on('show.bs.modal', function(event) {
+     var button = $(event.relatedTarget)
+    var user_id = button.data('id')
+    document.getElementById("baker_id").value = user_id ;
+
+});
+
+
+</script>
+
+
