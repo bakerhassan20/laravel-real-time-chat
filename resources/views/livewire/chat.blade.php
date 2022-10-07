@@ -2,7 +2,7 @@
 <div wire:poll>
 <div class="container">
 <div class="row">
-    <div class="col-4">
+    <div class="col-lg-4">
     			<div class="tab-content"style="padding:20px">
 						<div class="tab-panes" id="side">
 							<div class="list-group list-group-flush ">
@@ -47,7 +47,7 @@
     </div>
 
 
-       <div class="col-8">
+       <div class="col-lg-8">
 
 
 
@@ -102,7 +102,7 @@
 										<li><i class="fa fa-ban"></i> Block</li>
 									</ul>
 								</li>
-								
+
 							</ul>
 						</div>
 						<!-- action-header end -->
